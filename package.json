@@ -1,6 +1,12 @@
 {
   "name": "root",
   "private": true,
+  "workspaces":[
+    "packages/*"
+  ],
+  "scripts": {
+    "web": "lerna exec --scope example-web -- yarn serve"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
