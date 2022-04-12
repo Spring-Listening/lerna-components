@@ -1,14 +1,17 @@
 {
-  "name": "ui-component",
+  "name": "@spring_zou/ui-component",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^1.1.4",
     "core-js": "^3.8.3",
+    "element-plus": "^2.1.8",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"

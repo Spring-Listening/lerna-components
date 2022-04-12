@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "web": "lerna exec --scope example-web -- yarn serve"
+    "web": "lerna exec --scope example-web -- yarn serve",
+    "lerna": "lerna publish"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
